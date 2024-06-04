@@ -41,6 +41,7 @@ func main() {
 		email := record[0]
 		checkEmail(email)
 	}
+	fmt.Println("\nDone checking emails!")
 }
 
 func checkEmail(email string) {
